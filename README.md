@@ -6,6 +6,6 @@ Welcome to the GHC 2023 "The Power of Firmware" level-up lab! In this 1-hour ses
 ## Prerequisites
 To participate in this level-up lab, please make sure to bring your laptop and have Thonny, a Python based IDE, installed on it. Below, you'll find detailed installation instructions for Thonny:
 
-[Prerequisites Guide](https://github.com/GHCFW/WorkshopExercise23/blob/main/Prerequisites.md)
+[Prerequisites Guide](https://github.com/GHCFW/LevelUpLab2023/blob/main/Prerequisites.md)
 
 Any prior knowledge of programming languages or firmware is not necessary to participate in this workshop.
