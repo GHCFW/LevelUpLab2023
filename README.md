@@ -31,7 +31,7 @@ Any prior knowledge of programming languages or firmware is not necessary to par
 
    Visit [Activity 1](https://github.com/GHCFW/LevelUpLab2023/blob/main/Activity_1.md) for detailed instructions
    
-### **Exercise 2. Update the reaction game to play victory music on the simulator <br>**
+### **Activity 2. Update the reaction game to play victory music on the simulator <br>**
    We will start with this exercise on the simulator (Wokwi) before trying the code on the board. <br>
    **Goal** <br>
    You have been provided with a song library with song options: 'player1_victory_song', 'player2_victory_song'. <br>
@@ -39,7 +39,7 @@ Any prior knowledge of programming languages or firmware is not necessary to par
 
    Visit [Activity 2](https://github.com/GHCFW/LevelUpLab2023/blob/main/Activity_2.md) for detailed instructions
 
-### **Exercise 3. Play the reaction game with the buzzer on the Pico board <br>**
+### **Activity 3. Play the reaction game with the buzzer on the Pico board <br>**
    **Goal** <br>
    The goal of this exercise is to play the same victory music on the board!
 
