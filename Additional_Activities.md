@@ -26,9 +26,9 @@ In this step, you will configure a timer to handle timeouts for each round. The 
 
 In the `play_round(game_iteration, left_button, right_button)` function configure the timeout timer. Use the `Timer` module to set up the timer.
 
-<code>
+```python
 timeout_timer = Timer(period=1000, mode=Timer.ONE_SHOT, callback=timeout_callback)
-</code>
+```
 
 This code creates a timer that triggers a `timeout_callback` function after 1000 milliseconds (1 second) in one-shot mode. The `timeout_callback` function will handle the timeout event.
 
@@ -37,11 +37,11 @@ In this step, you will implement the `timeout_callback` function, which will be 
 
 Add the `timeout_callback` function. This function sets a global flag `timeout_triggered` to `True` when called.
 
-<code>
+```python
 def timeout_callback(timer):
     global timeout_triggered
     timeout_triggered = True
-</code>
+```
 
 
 **Step 3: Handle Timeout in the Game Round Logic**
@@ -49,7 +49,7 @@ Now that you have configured the timer and implemented the timeout callback, you
 
 Within the while loop inside the `play_round` function, add a condition to check if the `timeout_triggered` flag is set to `True`. If it is, print a message indicating a timeout and break out of the loop.
 
-<code>
+```python
 while True:
     global fastest_button, player2_wins, player1_wins, timeout_triggered
     
@@ -57,17 +57,17 @@ while True:
         print('Game iteration #' + str(game_iteration + 1) + ' resulted in a timeout')
         break
     # ... (existing code)
-</code>
+```
 
 **Step 4: Clear `timeout_triggered` Before Each Round**
 Before each round, it's important to clear the `timeout_triggered` variable to ensure that the timeout state from the previous round does not carry over.
 
 In the game loop before calling `play_round()`, add code to set the `timeout_triggered` flag to `False`. This should be done at the beginning of each round.
 
-<code>
+```python
 timeout_triggered = False
 play_round(game_iteration, left_button, right_button)
-</code>
+```
 
 
 
