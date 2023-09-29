@@ -56,7 +56,7 @@
 
   If you didn't see Raspberry Pi Pico as an option to open the file from:
      - Your board is not recognized by Thonny. Go back to steps 2 & 3 and ensure that those were successful by verifying you were able to switch the shell to MicroPython v1.20.0; Raspberry Pi Pico with RP2040
-     - See our [troubleshooting guide]((https://github.com/GHCFW/WorkshopExercise23/blob/main/Troubleshooting.md) if you still can't get it to work. 
+     - If you still can't get it to work, we recommend sharing the computer with someone who has Thonny working on their laptop for now, and after the workshop refer [here](https://github.com/thonny/thonny/issues)
 
  ### Step 5. Play the game!! <br>
   Once you have the firmware code up, click anywhere on main.py and let's start the game!
