@@ -50,8 +50,6 @@ Any prior knowledge of programming languages or firmware is not necessary to par
    Visit [Activity 3](https://github.com/GHCFW/LevelUpLab2023/blob/main/Activity_2.md) for detailed instructions
 
 
-## Troubleshooting
-
 ## Resources
 
 * You bought a new Pico board. What next? See how to flash micorpython and setup the new board [here](https://github.com/GHCFW/LevelUpLab2023/blob/main/Getting_started_on_pico.md).
