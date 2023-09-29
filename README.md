@@ -47,7 +47,7 @@ Any prior knowledge of programming languages or firmware is not necessary to par
    b. Open and run the code saved on Pico <br>
    c. Play the game! <br>
 
-   Visit [Activity 3](https://github.com/GHCFW/LevelUpLab2023/blob/main/Activity_2.md) for detailed instructions
+   Visit [Activity 3](https://github.com/GHCFW/LevelUpLab2023/blob/main/Activity_3.md) for detailed instructions
 
 
 ## Resources
