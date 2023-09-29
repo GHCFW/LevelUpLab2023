@@ -54,6 +54,7 @@ Any prior knowledge of programming languages or firmware is not necessary to par
 
 ## Resources
 
-* You bought a new Pico board. What next? See setup instructions for a new board here <>, project ideas here <>
+* You bought a new Pico board. What next? See how to flash micorpython and setup the new board [here](https://github.com/GHCFW/LevelUpLab2023/blob/main/Getting_started_on_pico.md).
+* If you want to explore more, checkout the additional activities listed [here](https://github.com/GHCFW/LevelUpLab2023/blob/main/Additional_Activities.md)
 
 
