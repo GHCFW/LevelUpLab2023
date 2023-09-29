@@ -4,12 +4,12 @@ If you find yourself with extra time during the workshop or are curious to delve
 
 ## Additional Activity 1: Explore the PlaySong Library and program more songs on the buzzer
 
-In this activity, you can explore the PlaySong library provided to you and gain a better understanding of how the buzeer is programmed. You can then create and add more songs to your project using the PlaySong library.
+In this activity, you can explore the `playsong` library provided to you and gain a better understanding of how the buzeer is programmed. You can then create and add more songs to your project similar to the existing tunes in the `songs` library.
 
 **Steps:**
 1. Dive into the playsong.py documentation to understand how the buzzer is programmed using PWM.
+2. Try different songs provided to you in the songs.py
 3. Utilize the `tones.py` library in combination with `playsong.py` to compose and add new songs to songs.py.
-
 
 
 ## Additional Activity 2: Add a Timeout to the reaction game
