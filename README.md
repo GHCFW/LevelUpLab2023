@@ -49,6 +49,10 @@ Any prior knowledge of programming languages or firmware is not necessary to par
 
    Visit [Activity 3](https://github.com/GHCFW/LevelUpLab2023/blob/main/Activity_3.md) for detailed instructions
 
+### **Additional Activities <br>**
+
+Visit [Additional Activities](https://github.com/GHCFW/LevelUpLab2023/blob/main/Additional_Activities.md)
+<br>
 
 ## Resources
 
