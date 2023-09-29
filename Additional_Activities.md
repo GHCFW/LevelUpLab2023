@@ -12,7 +12,7 @@ In this activity, you can explore the PlaySong library provided to you and gain 
 
 
 
-## Additional Activity 2  - Add a Timeout to the reaction game
+## Additional Activity 2: Add a Timeout to the reaction game
 
 In this activity, you will enhance the reaction game code provided to include a timeout feature for each round.
 
@@ -21,10 +21,8 @@ You will add a timeout mechanism to each round, where if neither player presses 
 
 Follow these steps to complete the exercise:
 
-### Step 1: Configure the Timeout Timer
+**Step 1: Configure the Timeout Timer**
 In this step, you will configure a timer to handle timeouts for each round. The timer will trigger a timeout event if neither player presses a button within a specified time frame.
-
-**Step 1:**
 
 In the `play_round(game_iteration, left_button, right_button)` function configure the timeout timer. Use the `Timer` module to set up the timer.
 
@@ -34,7 +32,7 @@ timeout_timer = Timer(period=1000, mode=Timer.ONE_SHOT, callback=timeout_callbac
 
 This code creates a timer that triggers a `timeout_callback` function after 1000 milliseconds (1 second) in one-shot mode. The `timeout_callback` function will handle the timeout event.
 
-### Step 2: Implement the Timeout Callback
+**Step 2: Implement the Timeout Callback**
 In this step, you will implement the `timeout_callback` function, which will be called when the timeout timer expires. This function will end the current round and announce a timeout.
 
 Add the `timeout_callback` function. This function sets a global flag `timeout_triggered` to `True` when called.
@@ -46,7 +44,7 @@ def timeout_callback(timer):
 </code>
 
 
-### Step 3: Handle Timeout in the Game Round Logic
+**Step 3: Handle Timeout in the Game Round Logic**
 Now that you have configured the timer and implemented the timeout callback, you need to modify the game logic to handle timeouts.
 
 Within the while loop inside the `play_round` function, add a condition to check if the `timeout_triggered` flag is set to `True`. If it is, print a message indicating a timeout and break out of the loop.
@@ -61,7 +59,7 @@ while True:
     # ... (existing code)
 </code>
 
-### Step 4: Clear `timeout_triggered` Before Each Round
+**Step 4: Clear `timeout_triggered` Before Each Round**
 Before each round, it's important to clear the `timeout_triggered` variable to ensure that the timeout state from the previous round does not carry over.
 
 In the game loop before calling `play_round()`, add code to set the `timeout_triggered` flag to `False`. This should be done at the beginning of each round.
