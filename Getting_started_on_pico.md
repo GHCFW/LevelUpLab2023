@@ -22,7 +22,7 @@ To get started, you'll need the following:
 
 - Raspberry Pi Pico board
 - Micro-USB cable
-- Thonny IDE installed on your computer
+- Thonny IDE installed on your computer (or any other IDE such as VSCODE, the instructions below use Thonny)
 
 ## Step 1: Prepare Your Hardware
 
